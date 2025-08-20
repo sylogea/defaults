@@ -1,0 +1,3 @@
+matches:
+  - trigger: "git update"
+    replace: "git add .; git commit --allow-empty-message --no-edit; git push"
