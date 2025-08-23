@@ -4,13 +4,13 @@
 	"editor.fontFamily": "Google Sans Code",
 	"editor.fontSize": 13,
 	"editor.formatOnPaste": false,
-	"editor.formatOnSave": true,
+	"editor.formatOnSave": false,
 	"editor.formatOnType": false,
 	"editor.guides.highlightActiveIndentation": false,
 	"editor.guides.indentation": false,
 	"editor.indentSize": 4,
 	"editor.insertSpaces": false,
-	"editor.minimap.autohide": "mouseover",
+	"editor.minimap.autohide": false,
 	"editor.occurrencesHighlight": "off",
 	"editor.renderWhitespace": "boundary",
 	"editor.stickyScroll.enabled": false,
@@ -36,16 +36,10 @@
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
 	"html.autoClosingTags": false,
-	"latex-workshop.latex.autoBuild.run": "onSave",
+	"latex-workshop.formatting.latex": "none",
 	"latex-workshop.latex.tools": [
 		{
-			"args": [
-				"-lualatex",
-				"-synctex=1",
-				"-interaction=nonstopmode",
-				"-file-line-error",
-				"%DOC%"
-			],
+			"args": ["-lualatex", "-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"],
 			"command": "latexmk",
 			"name": "latexmk"
 		}
@@ -60,9 +54,12 @@
 	"terminal.integrated.inheritEnv": false,
 	"update.mode": "manual",
 	"update.showReleaseNotes": false,
+	"workbench.colorTheme": "xxtereshko-light",
 	"workbench.editor.editorActionsLocation": "hidden",
 	"workbench.editor.empty.hint": "hidden",
+	"workbench.editorAssociations": {
+		"*.pdf": "latex-workshop-pdf-hook"
+	},
 	"workbench.startupEditor": "none",
-	"workbench.tree.renderIndentGuides": "none",
-	"workbench.colorTheme": "xxtereshko-light"
+	"workbench.tree.renderIndentGuides": "none"
 }
