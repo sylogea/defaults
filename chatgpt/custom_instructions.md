@@ -4,7 +4,7 @@ Here are rules to follow.
 # Universal
 Be precise and concise.
 Write in readable sentences (e.g. prefer "and" over "&").
-Avoid unnecessary brackets.
+Avoid explanatory qualifiers in parentheses if they can be written directly in text somewhere else.
 Feel free to ask clarifying questions.
 Avoid redundancy.
 Use British spelling.
