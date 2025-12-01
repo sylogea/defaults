@@ -11,7 +11,7 @@
 	"editor.guides.indentation": false,
 	"editor.indentSize": 4,
 	"editor.insertSpaces": false,
-	"editor.minimap.autohide": "mouseover",
+	"editor.minimap.autohide": true,
 	"editor.occurrencesHighlight": "off",
 	"editor.padding.bottom": 4,
 	"editor.padding.top": 4,
@@ -40,17 +40,7 @@
 	"files.trimTrailingWhitespace": true,
 	"html.autoClosingTags": false,
 	"latex-workshop.formatting.latex": "none",
-	// "latex-workshop.latex.tools": [{
-	// 	"args": [
-	// 		"-lualatex",
-	// 		"-synctex=1",
-	// 		"-interaction=nonstopmode",
-	// 		"-file-line-error",
-	// 		"%DOC%"
-	// 	],
-	// 	"command": "latexmk",
-	// 	"name": "latexmk"
-	// }],
+	// "latex-workshop.latex.tools": [{ "args": ["-lualatex", "-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"], "command": "latexmk", "name": "latexmk" }],
 	"latex-workshop.view.pdf.hand": true,
 	"latex-workshop.view.pdf.toolbar.hide.timeout": 0,
 	"python.createEnvironment.trigger": "off",
@@ -63,12 +53,11 @@
 	"update.showReleaseNotes": false,
 	"window.commandCenter": false,
 	"workbench.colorCustomizations": {
-		// "editor.lineHighlightBackground": "#00000000",
+		"editor.lineHighlightBackground": "#00000000",
 		"editor.lineHighlightBorder": "#00000000",
 		"notebook.cellBorderColor": "#222",
 		"notebook.focusedEditorBorder": "#444"
 	},
-	"workbench.colorTheme": "GitHub Light Default",
 	"workbench.editor.editorActionsLocation": "hidden",
 	"workbench.editor.empty.hint": "hidden",
 	"workbench.editor.showTabs": "multiple",
