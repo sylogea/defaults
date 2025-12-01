@@ -3,7 +3,7 @@
 	"chat.commandCenter.enabled": false,
 	"editor.detectIndentation": false,
 	"editor.fontFamily": "Google Sans Code",
-	"editor.fontSize": 13,
+	"editor.fontSize": 14,
 	"editor.formatOnPaste": false,
 	"editor.formatOnSave": false,
 	"editor.formatOnType": false,
